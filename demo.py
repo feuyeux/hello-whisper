@@ -64,7 +64,7 @@ def transcribe_audio(audio_file, show_language=False):
     """转录音频文件"""
     print("🎯 正在转录...")
     available_models = whisper.available_models()
-    print(f"可用模型: {available_models}")
+    # print(f"可用模型: {available_models}")
     # 可用模型: ['tiny.en', 'tiny', 'base.en', 'base',
     # 'small.en', 'small', 'medium.en', 'medium',
     # 'large-v1', 'large-v2', 'large-v3', 'large',
